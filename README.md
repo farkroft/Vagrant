@@ -1,5 +1,3 @@
-## Cara Install dan setup Vagrant
-
 # Vagrant
 - Install vagrant
   https://www.vagrantup.com/
