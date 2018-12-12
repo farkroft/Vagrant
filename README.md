@@ -45,11 +45,9 @@
 - copy your local keys into authorized_keys file | chmod 600 authorized keys
 - testing ssh with your username from local machine | ssh <yourname>@127.0.0.1 -p 2222
 
-setup rails in vagrant
-- install postgresql
-- install rails
-- install ruby
-- install bundler
-- install gem 'pg'
-- install libpq-dev
-- install node js
+tail -f shared/log/puma.stdout.log >> untuk melihat log puma dari app
+ps aux >> untuk melihat history background process
+ps aux | grep puma >> untuk melihat history background process puma
+bundle exec puma >> untuk jalanin puma
+bundle exec puma --daemon >> untuk jalanin puma di background process
+RACK_ENV=production bundle exec puma -C config/puma.rb >> jalanin puma lewat config puma.rb
